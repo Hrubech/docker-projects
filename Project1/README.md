@@ -12,7 +12,7 @@ Assurez-vous que Python est installé :
 ### ▶️ Création de l'environnement
 ```bash
     # Créer un environnement virtuel nommé "flask"
-    python -m venv flask
+    python3 -m venv flask
 ```
 ### ▶️ Activer l'environnement
 ```bash
