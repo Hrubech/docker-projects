@@ -4,4 +4,7 @@ Ce dépôt contient plusieurs projets utilisant Docker pour faciliter le dévelo
 
 ## 📁 Structure des projets :
 
-- **project1** : Application web simple (Flask) avec Docker
+- **Project1** : Application web simple (Flask) avec Docker
+  - Conteneuriser une application Flask
+  - Écrire un Dockerfile simple
+  - Exécuter une application conteneurisée
