@@ -1,12 +1,18 @@
 name: Docker Build & Push
 on:
   push:
+    paths:
+      - 'Project3/**'
     branches:
       - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./Project3
+        
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
