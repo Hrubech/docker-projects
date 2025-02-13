@@ -12,7 +12,7 @@ jobs:
     defaults:
       run:
         working-directory: ./Project3
-        
+
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v2
@@ -21,4 +21,4 @@ jobs:
       - name: Build Docker Image
         run: docker build -t myusername/myapp:latest .
       - name: Push to Docker Hub
-        run: docker push myusername/myapp:latest
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/myapp:latest
