@@ -3,7 +3,6 @@ on:
   push:
     paths:
       - 'Project3/**'
-      - '.github/workflows/**'
     branches:
       - main
 
